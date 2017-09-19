@@ -11,4 +11,11 @@
     <resizable value="false"/>
   </window>
   
+ 
+  <audio>
+    <song default="piano" />
+    <volume vol="100" />
+    <mute muted="false" />
+  </audio>
+  
 </config>

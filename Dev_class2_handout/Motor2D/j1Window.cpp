@@ -34,13 +34,13 @@ bool j1Window::Awake(pugi::xml_node& config)
 		//Create window
 		Uint32 flags = SDL_WINDOW_SHOWN;
 
-		bool fullscreen = config.child("window").child("fullscreen").attribute("value").as_bool();
-		bool borderless = config.child("window").child("borderless").attribute("value").as_bool();
-		bool resizable = config.child("window").child("resizable").attribute("value").as_bool();
+		bool fullscreen = config.child("fullscreen").attribute("value").as_bool();
+		bool borderless = config.child("borderless").attribute("value").as_bool();
+		bool resizable = config.child("resizable").attribute("value").as_bool();
 
-		width = config.child("window").child("resolution").attribute("width").as_uint();
-		height = config.child("window").child("resolution").attribute("height").as_uint();
-		scale = config.child("window").child("resolution").attribute("scale").as_uint();
+		width = config.child("resolution").attribute("width").as_uint();
+		height = config.child("resolution").attribute("height").as_uint();
+		scale = config.child("resolution").attribute("scale").as_uint();
 
 		if(FULLSCREEN)
 		{
