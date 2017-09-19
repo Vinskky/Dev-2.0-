@@ -68,7 +68,8 @@ public:
 	j1Textures*			tex;
 	j1Audio*			audio;
 	j1Scene*			scene;
-
+	pugi::xml_document	xml_document;
+	pugi::xml_node		xml_node;
 
 private:
 
@@ -79,6 +80,7 @@ private:
 	// TODO 2: Create two new variables from pugui namespace:
 	// a xml_document to store the while config file and
 	// a xml_node to read specific branches of the xml
+
 
 	int					argc;
 	char**				args;
