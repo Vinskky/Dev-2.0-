@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- config file for the game -->
+
+<config>
+  <name>Super Awesome game KappaPride</name>
+  <!--Macros-->
+  <window>
+    <resolution width="1024" height="768" scale="1"/>
+    <fullscreen value="false"/>
+    <borderless value="false"/>
+    <resizable value="false"/>
+  </window>
+  
+ 
+  <audio>
+    <song default="piano" />
+    <volume vol="100" />
+    <mute muted="false" />
+  </audio>
+  
+</config>
