@@ -281,14 +281,12 @@ void j1App::Save()const
 // then call all the modules to load themselves
 bool Load(pugi::xml_node& config)
 {
-	bool ret = true;
-
-	if (ret == true)
+	if (config != NULL)
 	{
-		p2List_item<j1Module*>* item;
-		
-		
+		bool ret = true;
+
 	}
+	else LOG("XML node not found to load your stuff", );
 }
 
 // TODO 7: Create a method to save the current state

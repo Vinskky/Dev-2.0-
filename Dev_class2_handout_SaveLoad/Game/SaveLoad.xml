@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<save_load>
-  <camera>
-    <position pos_x="0" pos_y="0"></position>
-  </camera>
-</save_load>
+<save>
+  <input />
+  <window />
+  <textures />
+  <audio />
+  <scene />
+  <renderer>
+    <camera x="0" y="0" />
+  </renderer>
+</save>
